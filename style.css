@@ -1,0 +1,11 @@
+.txtcolor{
+    color: coral;
+}
+
+#idpersonal{
+    color: cornflowerblue;
+}
+
+a[width="50"]{
+    color: red;
+}
