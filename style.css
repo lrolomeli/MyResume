@@ -19,7 +19,7 @@
 }
 
 .child{
-    width: 400px;
+    width: 440px;
     margin: 0 auto;
 }
 
@@ -92,10 +92,6 @@ li{
     color:beige;
 }
 
-footer {
-    display: block;
-}
-
 .justxt p{
     font-size: medium;
     text-align: justify;
@@ -113,4 +109,22 @@ footer {
 .leftright li{
     font-size: large;
     text-align: justify;
+}
+
+.dis h2{
+    text-align: left;
+}
+
+.dis{
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: 350px;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer {
+    display: block;
 }
