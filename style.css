@@ -1,6 +1,30 @@
 *{
     background-color: rgb(44, 43, 85);
-    text-align: center;
+}
+
+#him{
+
+    border: 3px dashed whitesmoke;
+    border-radius: 10%;
+}
+
+#abim{
+    border: 5px dashed black;
+    border-radius: 40%;
+}
+
+.container{
+    width: 100%;
+    text-align:center;
+}
+
+.child{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.schild{
+    width: 50%;
 }
 
 .myclass{
@@ -49,7 +73,7 @@ a{
 }
 
 p{
-    font-size: 10px;
+    font-size: 12px;
     color:beige;
 }
 
@@ -60,4 +84,23 @@ li{
 
 footer {
     display: block;
+}
+
+.justxt p{
+    font-size: medium;
+    text-align: justify;
+}
+
+.justxt li{
+    font-size: medium;
+    text-align: justify;
+}
+
+.leftright h2{
+    text-align: right;
+}
+
+.leftright li{
+    font-size: large;
+    text-align: justify;
 }
