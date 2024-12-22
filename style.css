@@ -27,6 +27,16 @@
     width: 50%;
 }
 
+.imagen{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.backsk{
+    background-color: rgb(79, 199, 235);
+}
+
 .myclass{
     margin-top: 10px;
     margin-bottom: 10px;
