@@ -8,12 +8,26 @@ img{
     border-radius: 5px;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
     height: 100vh;
+}
+
+.gcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.gcontainer>div {
+    background-color: #ff6f69;
+    border-radius: 5px;
+}
+.gcontainer>div ul{
+    text-align: left;
 }
 
 .skill-container {
