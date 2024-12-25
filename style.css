@@ -1,128 +1,113 @@
-*{
-    background-color: rgb(44, 43, 85);
+body {
+    background-color: #96ceb4;
+    color: white;
 }
 
-#him{
-
-    border: 3px dashed whitesmoke;
-    border-radius: 10%;
-}
-
-#abim{
-    border: 5px dashed black;
-    border-radius: 40%;
+img{
+    margin: 10px;
+    border-radius: 5px;
 }
 
 .container{
-    width: 100%;
-    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+}
+
+.skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 2rem;
+}
+
+.skill-box {
+    background-color: #ffeead;
+    border-radius: 10px;
+    margin: 0;
+    padding: 10px;
+    min-width: 200px;
+    height: 190px;
+}
+
+li {
+    color: black;
+}
+
+.embd {
+    background-color: #ff6f69;
+    color: white;
+}
+
+.skill-container .embd * {
+    color: white;
+}
+
+.tools {
+    background-color: #ffcc5c;
+}
+
+.skill-container .tools * {
+    color: white;
+}
+
+.other {
+    background-color: #fefbd8;   
+}
+
+.skill-container h2 {
+    color: black;
+    padding: 0;
+    margin: 0;
 }
 
 .child{
-    width: 440px;
-    margin: 0 auto;
+    min-width: 400px;
+    max-width: 600px;
+    text-align: center;
+    height: 100%;
 }
 
 .schild{
     width: 50%;
 }
 
-.imagen{
-    position: relative;
-    top: 0px;
-    left: 0px;
-}
-
-.backsk{
-    background-color: rgb(79, 199, 235);
-}
-
-.myclass{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-right: 5px;
-    padding-left: 5px;
-}
-
-ul{
-    margin-left: -40px;
-    list-style-position: inside;
-}
-
-#iddes{
-    color: coral;
-}
-
-button{
-    background-color: chartreuse;
-    border-radius: 10px;
-    padding: 10px;
-    font-size: 12px;
-    font-weight: bold;
-}
-
-h3{
-    color:aliceblue;
+#ytl {
+    display: block;
 }
 
 h2{
-    color:rgb(226, 119, 26);
+    color: #36486b;
 }
 
 h1{
     font-size: 3rem;
-    color: cornflowerblue;
 }
 
-#idpersonal{
-    color: cornflowerblue;
+a {
+    text-decoration: none;
 }
 
-a{
-    color: rgb(58, 214, 55);
+.button{
+    background-color: #ffeead;
+    text-align: center;
+    font-size: 1em;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 p{
     font-size: 12px;
-    color:beige;
+    color: black;
 }
 
-li{
-    font-size: 12px;
-    color:beige;
-}
-
-.justxt p{
+.justxt {
     font-size: medium;
     text-align: justify;
-}
-
-.justxt li{
-    font-size: medium;
-    text-align: justify;
-}
-
-.leftright h2{
-    text-align: right;
-}
-
-.leftright li{
-    font-size: large;
-    text-align: justify;
-}
-
-.dis h2{
-    text-align: left;
-}
-
-.dis{
-    display: inline-block;
-    vertical-align: top;
-    width: 200px;
-    height: 350px;
-    border: 0px;
-    margin: 0px;
-    padding: 0px;
 }
 
 footer {
