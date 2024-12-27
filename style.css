@@ -3,17 +3,18 @@ body {
     color: white;
 }
 
-img{
-    margin: 10px;
-    border-radius: 5px;
-}
-
 .container {
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
+}
+
+.child{
+    min-width: 400px;
+    max-width: 600px;
+    text-align: center;
 }
 
 .gcontainer {
@@ -54,8 +55,9 @@ img{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    align-content: center;
     justify-content: center;
-    height: 100vh;
+    height: 100%;
     gap: 2rem;
 }
 
@@ -99,17 +101,6 @@ li {
     margin: 0;
 }
 
-.child{
-    min-width: 400px;
-    max-width: 600px;
-    text-align: center;
-    height: 100%;
-}
-
-.schild{
-    width: 50%;
-}
-
 #ytl {
     display: block;
 }
@@ -120,6 +111,11 @@ h2{
 
 h1{
     font-size: 3rem;
+}
+
+img{
+    margin: 10px;
+    border-radius: 5px;
 }
 
 a {
